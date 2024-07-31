@@ -6,6 +6,7 @@ import { Card } from "./Components/card/Card";
 import { Nav } from "./Components/nav/Nav";
 import { Category } from "./Components/category/Category";
 import { Header } from "./Components/header/Header";
+import { Details } from "./Components/details/Details";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
           <Route path="nave" element={<Nav/>}/>
           <Route path="category" element={<Category/>}/>
           <Route path="header" element={<Header/>}/>
+          <Route path="details" element={<Details/>}/>
 
         </Routes>
       </BrowserRouter>
