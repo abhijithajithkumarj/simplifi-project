@@ -1,0 +1,174 @@
+[
+     {
+       "country": "United States",
+       "hotels": [
+         {
+           "hotelName": "Grand City Hotel",
+           "description": "A luxurious hotel located in the heart of the city, offering world-class amenities and services.",
+           "location": "New York, NY",
+           "facilities": [
+             "Free Wi-Fi",
+             "Swimming Pool",
+             "Fitness Center",
+             "Spa",
+             "Restaurant"
+           ],
+           "oneDayRoomPrice": 299,
+           "rating": 4.7,
+           "imageUrl": "https://example.com/grand-city-hotel.jpg"
+         },
+         {
+           "hotelName": "Oceanview Resort",
+           "description": "Enjoy a relaxing stay with stunning ocean views and a variety of recreational activities.",
+           "location": "Miami, FL",
+           "facilities": [
+             "Private Beach",
+             "Bar",
+             "Free Breakfast",
+             "Water Sports",
+             "Fitness Center"
+           ],
+           "oneDayRoomPrice": 229,
+           "rating": 4.5,
+           "imageUrl": "https://example.com/oceanview-resort.jpg"
+         }
+       ]
+     },
+     {
+       "country": "Canada",
+       "hotels": [
+         {
+           "hotelName": "Maple Leaf Inn",
+           "description": "A cozy and comfortable inn with easy access to local attractions and outdoor activities.",
+           "location": "Toronto, ON",
+           "facilities": [
+             "Free Wi-Fi",
+             "Pet-Friendly",
+             "Laundry Service",
+             "Free Parking"
+           ],
+           "oneDayRoomPrice": 159,
+           "rating": 4.2,
+           "imageUrl": "https://example.com/maple-leaf-inn.jpg"
+         },
+         {
+           "hotelName": "Mountain Lodge",
+           "description": "Nestled in the mountains, this lodge offers a tranquil escape with beautiful views and top-notch amenities.",
+           "location": "Banff, AB",
+           "facilities": [
+             "Ski-In/Ski-Out",
+             "Hot Tub",
+             "Restaurant",
+             "Free Breakfast"
+           ],
+           "oneDayRoomPrice": 289,
+           "rating": 4.8,
+           "imageUrl": "https://example.com/mountain-lodge.jpg"
+         }
+       ]
+     },
+     {
+       "country": "France",
+       "hotels": [
+         {
+           "hotelName": "Parisian Elegance",
+           "description": "Experience the charm of Paris with this elegant hotel located near iconic landmarks.",
+           "location": "Paris",
+           "facilities": [
+             "Free Wi-Fi",
+             "Concierge Service",
+             "Bar",
+             "Restaurant",
+             "Spa"
+           ],
+           "oneDayRoomPrice": 349,
+           "rating": 4.6,
+           "imageUrl": "https://example.com/parisian-elegance.jpg"
+         },
+         {
+           "hotelName": "Côte d'Azur Resort",
+           "description": "A luxurious resort offering stunning views of the French Riviera and exceptional service.",
+           "location": "Nice",
+           "facilities": [
+             "Beach Access",
+             "Swimming Pool",
+             "Fitness Center",
+             "Restaurant",
+             "Free Parking"
+           ],
+           "oneDayRoomPrice": 399,
+           "rating": 4.9,
+           "imageUrl": "https://example.com/cote-dazur-resort.jpg"
+         }
+       ]
+     },
+     {
+       "country": "Germany",
+       "hotels": [
+         {
+           "hotelName": "Berlin Central Hotel",
+           "description": "Located in the center of Berlin, this hotel offers modern amenities and easy access to attractions.",
+           "location": "Berlin",
+           "facilities": [
+             "Free Wi-Fi",
+             "Business Center",
+             "Restaurant",
+             "Fitness Center",
+             "Laundry Service"
+           ],
+           "oneDayRoomPrice": 179,
+           "rating": 4.4,
+           "imageUrl": "https://example.com/berlin-central-hotel.jpg"
+         },
+         {
+           "hotelName": "Bavarian Castle Hotel",
+           "description": "Stay in a historic castle with a blend of traditional and modern comforts in the heart of Bavaria.",
+           "location": "Munich",
+           "facilities": [
+             "Free Wi-Fi",
+             "Restaurant",
+             "Castle Tours",
+             "Fitness Center",
+             "Spa"
+           ],
+           "oneDayRoomPrice": 259,
+           "rating": 4.7,
+           "imageUrl": "https://example.com/bavarian-castle-hotel.jpg"
+         }
+       ]
+     },
+     {
+       "country": "Italy",
+       "hotels": [
+         {
+           "hotelName": "Rome Luxury Suites",
+           "description": "Elegant suites in the heart of Rome, offering a blend of historical charm and modern luxury.",
+           "location": "Rome",
+           "facilities": [
+             "Free Wi-Fi",
+             "Spa",
+             "Restaurant",
+             "Concierge Service"
+           ],
+           "oneDayRoomPrice": 349,
+           "rating": 4.8,
+           "imageUrl": "https://example.com/rome-luxury-suites.jpg"
+         },
+         {
+           "hotelName": "Venetian Retreat",
+           "description": "A charming retreat overlooking the canals of Venice, with exquisite service and a romantic atmosphere.",
+           "location": "Venice",
+           "facilities": [
+             "Free Wi-Fi",
+             "Bar",
+             "Restaurant",
+             "Boat Tours"
+           ],
+           "oneDayRoomPrice": 379,
+           "rating": 4.9,
+           "imageUrl": "https://example.com/venetian-retreat.jpg"
+         }
+       ]
+     }
+   ]
+   
