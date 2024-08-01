@@ -21,7 +21,7 @@ function App() {
           <Route path="nave" element={<Nav/>}/>
           <Route path="category" element={<Category/>}/>
           <Route path="header" element={<Header/>}/>
-          <Route path="details" element={<Details/>}/>
+          <Route path="/details/:id" element={<Details />} />
 
         </Routes>
       </BrowserRouter>

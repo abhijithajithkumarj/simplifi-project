@@ -1,0 +1,188 @@
+[
+     {
+       "country": "Spain",
+       "hotels": [
+         {
+           "id": "12",
+           "hotelName": "Barcelona Bliss",
+           "description": "A stylish hotel in the heart of Barcelona with modern amenities and vibrant city views.",
+           "location": "Barcelona",
+           "facilities": [
+             "Free Wi-Fi",
+             "Swimming Pool",
+             "Fitness Center",
+             "Bar",
+             "Restaurant"
+           ],
+           "oneDayRoomPrice": 319,
+           "rating": 4.6,
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
+         },
+         {
+           "id": "13",
+           "hotelName": "Madrid Central",
+           "description": "Experience luxury and comfort with easy access to Madrid’s cultural landmarks.",
+           "location": "Madrid",
+           "facilities": [
+             "Free Wi-Fi",
+             "Business Center",
+             "Restaurant",
+             "Spa",
+             "Concierge Service"
+           ],
+           "oneDayRoomPrice": 289,
+           "rating": 4.7,
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
+         }
+       ]
+     },
+     {
+       "country": "Japan",
+       "hotels": [
+         {
+           "id": "14",
+           "hotelName": "Tokyo Towers",
+           "description": "A luxurious hotel offering stunning views of Tokyo’s skyline and top-notch amenities.",
+           "location": "Tokyo",
+           "facilities": [
+             "Free Wi-Fi",
+             "Swimming Pool",
+             "Fitness Center",
+             "Spa",
+             "Restaurant"
+           ],
+           "oneDayRoomPrice": 399,
+           "rating": 4.8,
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
+         },
+         {
+           "id": "15",
+           "hotelName": "Kyoto Serenity",
+           "description": "A peaceful retreat in Kyoto with traditional Japanese architecture and serene gardens.",
+           "location": "Kyoto",
+           "facilities": [
+             "Free Wi-Fi",
+             "Spa",
+             "Concierge Service",
+             "Restaurant",
+             "Garden"
+           ],
+           "oneDayRoomPrice": 349,
+           "rating": 4.9,
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
+         }
+       ]
+     },
+     {
+       "country": "Australia",
+       "hotels": [
+         {
+           "id": "16",
+           "hotelName": "Sydney Harbor Hotel",
+           "description": "Enjoy breathtaking views of Sydney Harbor from this upscale hotel with luxury amenities.",
+           "location": "Sydney",
+           "facilities": [
+             "Free Wi-Fi",
+             "Swimming Pool",
+             "Fitness Center",
+             "Spa",
+             "Bar"
+           ],
+           "oneDayRoomPrice": 429,
+           "rating": 4.8,
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
+         },
+         {
+           "id": "17",
+           "hotelName": "Melbourne Comfort",
+           "description": "A stylish hotel in Melbourne offering modern amenities and a prime location.",
+           "location": "Melbourne",
+           "facilities": [
+             "Free Wi-Fi",
+             "Business Center",
+             "Restaurant",
+             "Fitness Center",
+             "Concierge Service"
+           ],
+           "oneDayRoomPrice": 269,
+           "rating": 4.5,
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
+         }
+       ]
+     },
+     {
+       "country": "Netherlands",
+       "hotels": [
+         {
+           "id": "18",
+           "hotelName": "Amsterdam Views",
+           "description": "Experience the charm of Amsterdam from this modern hotel with scenic canal views.",
+           "location": "Amsterdam",
+           "facilities": [
+             "Free Wi-Fi",
+             "Restaurant",
+             "Bar",
+             "Fitness Center",
+             "Concierge Service"
+           ],
+           "oneDayRoomPrice": 299,
+           "rating": 4.6,
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
+         },
+         {
+           "id": "19",
+           "hotelName": "Rotterdam Retreat",
+           "description": "A chic hotel in Rotterdam with easy access to the city’s architectural landmarks and cultural spots.",
+           "location": "Rotterdam",
+           "facilities": [
+             "Free Wi-Fi",
+             "Swimming Pool",
+             "Restaurant",
+             "Fitness Center",
+             "Business Center"
+           ],
+           "oneDayRoomPrice": 279,
+           "rating": 4.7,
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
+         }
+       ]
+     },
+     {
+       "country": "Brazil",
+       "hotels": [
+         {
+           "id": "20",
+           "hotelName": "Rio Luxury",
+           "description": "Experience the vibrant culture of Rio de Janeiro from this upscale hotel with stunning ocean views.",
+           "location": "Rio de Janeiro",
+           "facilities": [
+             "Free Wi-Fi",
+             "Swimming Pool",
+             "Fitness Center",
+             "Spa",
+             "Restaurant"
+           ],
+           "oneDayRoomPrice": 339,
+           "rating": 4.7,
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
+         },
+         {
+           "id": "21",
+           "hotelName": "São Paulo Comfort",
+           "description": "A contemporary hotel in São Paulo offering modern amenities and a central location.",
+           "location": "São Paulo",
+           "facilities": [
+             "Free Wi-Fi",
+             "Business Center",
+             "Restaurant",
+             "Fitness Center",
+             "Concierge Service"
+           ],
+           "oneDayRoomPrice": 259,
+           "rating": 4.5,
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
+         }
+       ]
+     }
+   ]
+   

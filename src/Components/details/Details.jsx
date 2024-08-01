@@ -1,7 +1,26 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { useParams } from 'react-router-dom';
 
 export const Details = () => {
+  const { id } = useParams();
+  const [hotel, setHotel] = useState(null);
+
+  useEffect(() => {
+    axios.get('/data.json')
+      .then(response => {
+        const allHotels = response.data.flatMap(country => country.hotels);
+        const selectedHotel = allHotels.find(hotel => hotel.id === id);
+        setHotel(selectedHotel);
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+  }, [id]);
+
+  if (!hotel) return <div>Loading...</div>;
+
   return (
     <div className="flex justify-center bg-gray-100 min-h-screen">
       <div className="hidden lg:flex lg:w-1/5 bg-white shadow-lg p-4"></div>
@@ -10,10 +29,9 @@ export const Details = () => {
         <div
           className="card bg-white shadow-lg rounded-lg overflow-hidden relative h-[25rem] w-full mb-8"
           style={{
-            backgroundImage:
-              "url('https://i.pinimg.com/564x/45/aa/fd/45aafdd9393230803a6abfccd30b6c74.jpg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundImage: `url(${hotel.imageUrl})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
           }}
         >
           <div className="Arrow flex absolute top-4 left-4">
@@ -30,7 +48,7 @@ export const Details = () => {
 
         <div className="second-child mb-4">
           <div className="title-and-map flex justify-between items-center">
-            <p className="text-3xl font-bold">Coeurdes Alpes</p>
+            <p className="text-3xl font-bold">{hotel.hotelName}</p>
             <p className="text-xl text-blue-600 font-bold">Show map</p>
           </div>
         </div>
@@ -38,14 +56,10 @@ export const Details = () => {
         <div className="ratting-description flex flex-col mb-8">
           <div className="flex items-center mb-3">
             <i className="fa-solid fa-star text-yellow-600"></i>
-            <p className="ml-2">4.5 (355 Reviews)</p>
+            <p className="ml-2">{hotel.rating} (355 Reviews)</p>
           </div>
 
-          <p>
-            Aspen is as close as one can get to a storybook alpine town in
-            America. The choose-your-own-adventure possibilities skiing, hiking,
-            dining, shopping, and more.
-          </p>
+          <p>{hotel.description}</p>
 
           <div>
             <select
@@ -97,7 +111,7 @@ export const Details = () => {
             <p className="font-bold">
               Price
               <br />
-              <p className="text-2xl font-bold text-green-500">$500</p>
+              <p className="text-2xl font-bold text-green-500">${hotel.oneDayRoomPrice}</p>
             </p>
             <button
               type="button"
@@ -110,7 +124,6 @@ export const Details = () => {
         </div>
       </div>
 
-      {/* Right Sidebar (hidden on small screens) */}
       <div className="hidden lg:flex lg:w-1/5 bg-white shadow-lg p-4">
         {/* Right sidebar content here */}
       </div>
