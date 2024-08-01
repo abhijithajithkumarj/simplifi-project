@@ -3,6 +3,7 @@
        "country": "United States",
        "hotels": [
          {
+          "id":"1",
            "hotelName": "Grand City Hotel",
            "description": "A luxurious hotel located in the heart of the city, offering world-class amenities and services.",
            "location": "New York, NY",
@@ -18,6 +19,7 @@
            "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
          },
          {
+          "id":"4",
            "hotelName": "Oceanview Resort",
            "description": "Enjoy a relaxing stay with stunning ocean views and a variety of recreational activities.",
            "location": "Miami, FL",
@@ -37,6 +39,7 @@
        "country": "Canada",
        "hotels": [
          {
+          "id":"2",
            "hotelName": "Maple Leaf Inn",
            "description": "A cozy and comfortable inn with easy access to local attractions and outdoor activities.",
            "location": "Toronto, ON",
@@ -50,6 +53,7 @@
            "rating": 4.2,
            "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         },
          {
+          "id":"3",
            "hotelName": "Mountain Lodge",
            "description": "Nestled in the mountains, this lodge offers a tranquil escape with beautiful views and top-notch amenities.",
            "location": "Banff, AB",
@@ -68,6 +72,7 @@
        "country": "France",
        "hotels": [
          {
+          "id":"5",
            "hotelName": "Parisian Elegance",
            "description": "Experience the charm of Paris with this elegant hotel located near iconic landmarks.",
            "location": "Paris",
@@ -82,6 +87,7 @@
            "rating": 4.6,
            "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         },
          {
+          "id":"6",
            "hotelName": "Côte d'Azur Resort",
            "description": "A luxurious resort offering stunning views of the French Riviera and exceptional service.",
            "location": "Nice",
@@ -101,6 +107,7 @@
        "country": "Germany",
        "hotels": [
          {
+          "id":"7",
            "hotelName": "Berlin Central Hotel",
            "description": "Located in the center of Berlin, this hotel offers modern amenities and easy access to attractions.",
            "location": "Berlin",
@@ -115,6 +122,7 @@
            "rating": 4.4,
            "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         },
          {
+          "id":"8",
            "hotelName": "Bavarian Castle Hotel",
            "description": "Stay in a historic castle with a blend of traditional and modern comforts in the heart of Bavaria.",
            "location": "Munich",
@@ -134,6 +142,7 @@
        "country": "Italy",
        "hotels": [
          {
+          "id":"10",
            "hotelName": "Rome Luxury Suites",
            "description": "Elegant suites in the heart of Rome, offering a blend of historical charm and modern luxury.",
            "location": "Rome",
@@ -147,6 +156,7 @@
            "rating": 4.8,
            "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         },
          {
+          "id":"11",
            "hotelName": "Venetian Retreat",
            "description": "A charming retreat overlooking the canals of Venice, with exquisite service and a romantic atmosphere.",
            "location": "Venice",
