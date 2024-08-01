@@ -1,4 +1,5 @@
 import { useState } from "react";
+// eslint-disable-next-line no-unused-vars
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import { Explore } from "./Components/explor/Explore";
 import { Home } from "./Components/home/Home";
@@ -9,7 +10,6 @@ import { Header } from "./Components/header/Header";
 import { Details } from "./Components/details/Details";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>

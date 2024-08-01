@@ -15,7 +15,7 @@
            ],
            "oneDayRoomPrice": 299,
            "rating": 4.7,
-           "imageUrl": "https://example.com/grand-city-hotel.jpg"
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
          },
          {
            "hotelName": "Oceanview Resort",
@@ -30,8 +30,7 @@
            ],
            "oneDayRoomPrice": 229,
            "rating": 4.5,
-           "imageUrl": "https://example.com/oceanview-resort.jpg"
-         }
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         }
        ]
      },
      {
@@ -49,8 +48,7 @@
            ],
            "oneDayRoomPrice": 159,
            "rating": 4.2,
-           "imageUrl": "https://example.com/maple-leaf-inn.jpg"
-         },
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         },
          {
            "hotelName": "Mountain Lodge",
            "description": "Nestled in the mountains, this lodge offers a tranquil escape with beautiful views and top-notch amenities.",
@@ -63,8 +61,7 @@
            ],
            "oneDayRoomPrice": 289,
            "rating": 4.8,
-           "imageUrl": "https://example.com/mountain-lodge.jpg"
-         }
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         }
        ]
      },
      {
@@ -83,8 +80,7 @@
            ],
            "oneDayRoomPrice": 349,
            "rating": 4.6,
-           "imageUrl": "https://example.com/parisian-elegance.jpg"
-         },
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         },
          {
            "hotelName": "Côte d'Azur Resort",
            "description": "A luxurious resort offering stunning views of the French Riviera and exceptional service.",
@@ -98,8 +94,7 @@
            ],
            "oneDayRoomPrice": 399,
            "rating": 4.9,
-           "imageUrl": "https://example.com/cote-dazur-resort.jpg"
-         }
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         }
        ]
      },
      {
@@ -118,8 +113,7 @@
            ],
            "oneDayRoomPrice": 179,
            "rating": 4.4,
-           "imageUrl": "https://example.com/berlin-central-hotel.jpg"
-         },
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         },
          {
            "hotelName": "Bavarian Castle Hotel",
            "description": "Stay in a historic castle with a blend of traditional and modern comforts in the heart of Bavaria.",
@@ -133,8 +127,7 @@
            ],
            "oneDayRoomPrice": 259,
            "rating": 4.7,
-           "imageUrl": "https://example.com/bavarian-castle-hotel.jpg"
-         }
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         }
        ]
      },
      {
@@ -152,8 +145,7 @@
            ],
            "oneDayRoomPrice": 349,
            "rating": 4.8,
-           "imageUrl": "https://example.com/rome-luxury-suites.jpg"
-         },
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         },
          {
            "hotelName": "Venetian Retreat",
            "description": "A charming retreat overlooking the canals of Venice, with exquisite service and a romantic atmosphere.",
@@ -166,8 +158,7 @@
            ],
            "oneDayRoomPrice": 379,
            "rating": 4.9,
-           "imageUrl": "https://example.com/venetian-retreat.jpg"
-         }
+           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"         }
        ]
      }
    ]
