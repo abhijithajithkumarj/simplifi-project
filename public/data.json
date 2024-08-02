@@ -310,5 +310,26 @@
         "imageUrl": "https://i.pinimg.com/564x/58/0f/65/580f655a13e13b450cd4d8926ec42747.jpg"
       }
     ]
+  },
+  {
+    "country": "Thailand",
+    "hotels": [
+      {
+        "id": "2888",
+        "hotelName": "Next level",
+        "description": "Enjoy a luxury stay in Bangkok with exquisite dining, a full-service spa, and modern amenities.",
+        "location": "Bangkok",
+        "facilities": [
+          "Free Wi-Fi",
+          "Spa",
+          "Restaurant",
+          "Pool",
+          "Fitness Center"
+        ],
+        "oneDayRoomPrice": 230,
+        "rating": 4.5,
+        "imageUrl": "https://i.pinimg.com/564x/58/0f/65/580f655a13e13b450cd4d8926ec42747.jpg"
+      }
+    ]
   }
 ]
