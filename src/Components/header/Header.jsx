@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import React from "react";
 
 export const Header = () => {
@@ -13,18 +12,13 @@ export const Header = () => {
               <p className="text-3xl font-bold">Aspen</p>
             </p>
 
-            <div className="flex items-center mr-16">
-              <i className="fa-solid fa-location-dot mt-8 mr-5 text-2xl text-blue-800"></i>
-              <form>
-                <label
-                  htmlFor="countries"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-                >
-                  Select an option
-                </label>
+            <div className="flex items-center ">
+              <i className="fa-solid fa-location-dot mt-5 mr-2 text-2xl text-blue-800"></i>
+              <form >
+              
                 <select
                   id="countries"
-                  className="bg-gray-50 bg-opacity-80 border text-sm rounded-lg block p-2.5 dark:bg-opacity-50 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black0 sm:w-50 w-28 md:w-50 lg:w-60   mt-4 text-black appearance-auto "
+                  className="bg-gray-50 bg-opacity-80 border text-sm rounded-lg block p-2.5 dark:bg-opacity-50 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black0 sm:w-50 md:w-50 lg:w-60 w-[70px]  mt-4 text-black appearance-auto "
                 >
                   <option selected>Aspen,USA </option>
                   <option value="CA"> Aspen Canada</option>
