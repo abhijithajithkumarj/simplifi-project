@@ -15,14 +15,14 @@ export const Card = () => {
     dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 2, 
+    slidesToShow: 2,
     slidesToScroll: 1,
     rows: 1,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2, 
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -73,8 +73,6 @@ export const Card = () => {
           <div key={countryIndex} className="carousel">
             {country.hotels.map((hotel, hotelIndex) => (
               <div
-
-          
                 className="card-container flex justify-start"
                 key={hotelIndex}
                 onClick={() => handleCardClick(hotel.id)}
@@ -87,7 +85,10 @@ export const Card = () => {
                     backgroundPosition: "center",
                   }}
                 >
-                  <div className="card-description1 mb-12 ml-1"> {hotel.hotelName}</div>
+                  <div className="card-description1 mb-12 ml-1">
+                    {" "}
+                    {hotel.hotelName}
+                  </div>
 
                   <div className="card-description flex  ml-1">
                     <p className="flex gap-5">
@@ -96,7 +97,7 @@ export const Card = () => {
                     </p>
                   </div>
                   <div className="card-heart">
-                    <i className="fa-solid fa-heart"></i> 
+                    <i className="fa-solid fa-heart"></i>
                   </div>
                 </article>
               </div>
