@@ -15,21 +15,21 @@ export const Card = () => {
     dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 2, // Show 2 slides at a time
+    slidesToShow: 2, 
     slidesToScroll: 1,
     rows: 1,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2, // Show 2 slides at a time
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2, // Show 1 slide at a time for small screens
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
