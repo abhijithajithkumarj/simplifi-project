@@ -1,26 +1,27 @@
+/* Home.module.css */
 .category-container {
-     display: flex;
-     justify-content: center;
-     gap: 1rem;
-     margin-top: 1rem; 
-   }
-   
-   .category-button {
-     padding: 0.5rem 1rem;
-     background-color: #d6cbcb;
-     color: blck;
-     border: none;
-     border-radius: 2rem;
-     border: #0056b3;
-     cursor: pointer;
-     transition: background-color 0.3s;
-     font-size: 1rem;
-     font-weight: 300;
-   }
-   
-   .category-button:hover {
-     color: blue;
-     background-color: #e4d9d9;
-     font-weight: 700;
-   }
-   
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.category-button {
+  padding: 0.5rem;
+  background-color: #f7f3f3;
+  color: black;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+  font-weight: 500;
+  
+}
+
+.category-button:hover {
+  color: blue;
+  background-color: #c6bebe;
+  font-weight: 700;
+}

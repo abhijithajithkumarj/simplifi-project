@@ -1,20 +1,50 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
-import './card.css'; 
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./card.css";
 
 export const Card = () => {
   const [hotels, setHotels] = useState([]);
   const navigate = useNavigate();
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 2, // Show 2 slides at a time
+    slidesToScroll: 1,
+    rows: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2, // Show 2 slides at a time
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2, // Show 1 slide at a time for small screens
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   useEffect(() => {
-    axios.get('data.json')
-      .then(response => {
-        setHotels(response.data); 
+    axios
+      .get("/data.json")
+      .then((response) => {
+        console.log(response.data);
+        setHotels(response.data);
       })
-      .catch(error => {
-        console.error('Error fetching data:', error);
+      .catch((error) => {
+        console.error("Error fetching data:", error);
       });
   }, []);
 
@@ -23,33 +53,40 @@ export const Card = () => {
   };
 
   return (
-    <div className="flex flex-wrap justify-center gap-4 p-4">
-      {hotels.map((country, countryIndex) => (
-        <div key={countryIndex} className="w-full md:w-1/2 lg:w-1/4 p-2">
-          {country.hotels.map((hotel, hotelIndex) => (
-            <div 
-              className="card-container" 
-              key={hotelIndex} 
-              onClick={() => handleCardClick(hotel.id)}
-            >
-              <article
-                className="card"
-                style={{
-                  backgroundImage: `url(${hotel.imageUrl})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
+    <div className="w-full p-4">
+      <Slider {...settings}>
+        {hotels.map((country, countryIndex) => (
+          <div key={countryIndex} className="carousel">
+            {country.hotels.map((hotel, hotelIndex) => (
+              <div
+                className="card-container"
+                key={hotelIndex}
+                onClick={() => handleCardClick(hotel.id)}
               >
-               
-                <h3 className="card-title"></h3>
-                <div className="card-description">
-                 
-                </div>
-              </article>
-            </div>
-          ))}
-        </div>
-      ))}
+                <article
+                  className="card"
+                  style={{
+                    backgroundImage: `url(${hotel.imageUrl})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                >
+                  <div className="card-description1 "> {hotel.hotelName}</div>
+                  <div className="card-description flex">
+                    <p className="flex gap-5">
+                      <i className="fa-solid fa-star text-yellow-600 mt-1"></i>{" "}
+                      {hotel.rating}
+                    </p>
+                  </div>
+                  <div className="card-heart">
+                    <i className="fa-solid fa-heart"></i>
+                  </div>
+                </article>
+              </div>
+            ))}
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };

@@ -11,7 +11,7 @@ export const Explore = () => {
 
   return (
     <div
-      className="bg-black bg-opacity-50 flex flex-col justify-between h-screen"
+      className="bg-black bg-opacity-50 flex flex-col justify-between h-screen "
       style={{
         backgroundImage:
           "url(https://i.pinimg.com/564x/ec/9b/fd/ec9bfd8ce5863b01ecdfc07a827137ec.jpg)",
