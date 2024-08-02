@@ -5,9 +5,10 @@ import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./card.css";
+import './Recommended.css';
 
-export const Card = () => {
+
+export const Recommended = () => {
   const [hotels, setHotels] = useState([]);
   const navigate = useNavigate();
 
@@ -15,21 +16,21 @@ export const Card = () => {
     dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 2, // Show 2 slides at a time
+    slidesToShow: 2, 
     slidesToScroll: 1,
     rows: 1,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2, // Show 2 slides at a time
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2, // Show 1 slide at a time for small screens
+          slidesToShow: 2, 
           slidesToScroll: 1,
         },
       },
@@ -38,7 +39,7 @@ export const Card = () => {
 
   useEffect(() => {
     axios
-      .get("/data.json")
+      .get("/rec.json")
       .then((response) => {
         console.log(response.data);
         setHotels(response.data);
@@ -59,31 +60,27 @@ export const Card = () => {
           <div key={countryIndex} className="carousel">
             {country.hotels.map((hotel, hotelIndex) => (
               <div
-
-          
-                className="card-container flex justify-start"
+                className="card-container "
                 key={hotelIndex}
                 onClick={() => handleCardClick(hotel.id)}
               >
-                <article
-                  className="card"
-                  style={{
-                    backgroundImage: `url(${hotel.imageUrl})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
-                >
-                  <div className="card-description1 mb-12 ml-1"> {hotel.hotelName}</div>
-
-                  <div className="card-description flex  ml-1">
-                    <p className="flex gap-5">
-                      <i className="fa-solid fa-star text-yellow-600 mt-1"></i>
-                      {hotel.rating}
-                    </p>
+                <article className="card ">
+                  <div
+                    className="card-image"
+                    style={{
+                      backgroundImage: `url(${hotel.imageUrl})`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                    }}
+                  >
+                
+                    <div className="card-description items-center flex ml-24 lg:ml-72">
+                      <p className="flex gap-5 ml-5">
+                       2n/3d
+                      </p>
+                    </div>
                   </div>
-                  <div className="card-heart">
-                    <i className="fa-solid fa-heart"></i> {/* Heart icon */}
-                  </div>
+                  <div className="card-name">{hotel.hotelName}</div>
                 </article>
               </div>
             ))}

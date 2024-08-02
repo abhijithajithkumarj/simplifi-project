@@ -4,6 +4,7 @@ import { Header } from "../header/Header";
 import { Category } from "../category/Category";
 import SearchForm from "../searchForm/SearchForm";
 import { Card } from "../card/Card";
+import { Recommended } from "../card/Recommended/recommended";
 
 export const Home = () => {
   return (
@@ -39,7 +40,7 @@ export const Home = () => {
           
           </div>
           <div>
-              <Card />
+              <Recommended />
             </div>
         </div>
       </div>

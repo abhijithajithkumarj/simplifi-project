@@ -1,22 +1,34 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 export const Details = () => {
   const { id } = useParams();
   const [hotel, setHotel] = useState(null);
 
   useEffect(() => {
-    axios.get('/data.json')
-      .then(response => {
-        const allHotels = response.data.flatMap(country => country.hotels);
-        const selectedHotel = allHotels.find(hotel => hotel.id === id);
+    const fetchHotelData = async () => {
+      try {
+  
+        const dataResponse = await axios.get('/data.json');
+        const allHotelsData = dataResponse.data.flatMap(country => country.hotels);
+        let selectedHotel = allHotelsData.find(hotel => hotel.id === id);
+  
+   
+        if (!selectedHotel) {
+          const recResponse = await axios.get('/rec.json');
+          const allHotelsRec = recResponse.data.flatMap(country => country.hotels);
+          selectedHotel = allHotelsRec.find(hotel => hotel.id === id);
+        }
+  
         setHotel(selectedHotel);
-      })
-      .catch(error => {
+      } catch (error) {
         console.error('Error fetching data:', error);
-      });
+      }
+    };
+  
+    fetchHotelData();
   }, [id]);
 
   if (!hotel) return <div>Loading...</div>;
@@ -34,11 +46,11 @@ export const Details = () => {
             backgroundPosition: 'center',
           }}
         >
-          <div className="Arrow flex absolute top-4 left-4">
+          <Link to="/home" className="Arrow flex absolute top-4 left-4">
             <button className="text-white p-2 rounded-lg flex items-center bg-white w-11 h-15 justify-center">
               <i className="fa-solid fa-arrow-left text-xl text-black"></i>
             </button>
-          </div>
+          </Link>
           <div className="button-grp flex justify-end space-x-2 absolute right-4 bottom-4 z-50">
             <button className="likes border border-gray-300 rounded-full bg-white p-2 flex items-center">
               <i className="fa-solid fa-heart text-5xl text-red-500"></i>
