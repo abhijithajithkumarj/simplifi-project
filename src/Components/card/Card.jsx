@@ -96,7 +96,7 @@ export const Card = () => {
                     </p>
                   </div>
                   <div className="card-heart">
-                    <i className="fa-solid fa-heart"></i> {/* Heart icon */}
+                    <i className="fa-solid fa-heart"></i> 
                   </div>
                 </article>
               </div>
