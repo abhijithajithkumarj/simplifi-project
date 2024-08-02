@@ -1,175 +1,314 @@
 [
-     {
-       "country": "United States",
-       "hotels": [
-         {
-          "id":"1",
-           "hotelName": "Grand City Hotel",
-           "description": "A luxurious hotel located in the heart of the city, offering world-class amenities and services.",
-           "location": "New York, NY",
-           "facilities": [
-             "Free Wi-Fi",
-             "Swimming Pool",
-             "Fitness Center",
-             "Spa",
-             "Restaurant"
-           ],
-           "oneDayRoomPrice": 299,
-           "rating": 4.7,
-           "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
-         },
-         {
-          "id":"4",
-           "hotelName": "Oceanview Resort",
-           "description": "Enjoy a relaxing stay with stunning ocean views and a variety of recreational activities.",
-           "location": "Miami, FL",
-           "facilities": [
-             "Private Beach",
-             "Bar",
-             "Free Breakfast",
-             "Water Sports",
-             "Fitness Center"
-           ],
-           "oneDayRoomPrice": 229,
-           "rating": 4.5,
-           "imageUrl": "https://i.pinimg.com/564x/ef/c6/62/efc662ad7d783e588fcf5f8a2f28693f.jpg"         }
-       ]
-     },
-     {
-       "country": "Canada",
-       "hotels": [
-         {
-          "id":"2",
-           "hotelName": "Maple Leaf Inn",
-           "description": "A cozy and comfortable inn with easy access to local attractions and outdoor activities.",
-           "location": "Toronto, ON",
-           "facilities": [
-             "Free Wi-Fi",
-             "Pet-Friendly",
-             "Laundry Service",
-             "Free Parking"
-           ],
-           "oneDayRoomPrice": 159,
-           "rating": 4.2,
-           "imageUrl": "https://i.pinimg.com/564x/d2/7c/db/d27cdbf79503a4fdaaa71f26889c1feb.jpg"         },
-         {
-          "id":"3",
-           "hotelName": "Mountain Lodge",
-           "description": "Nestled in the mountains, this lodge offers a tranquil escape with beautiful views and top-notch amenities.",
-           "location": "Banff, AB",
-           "facilities": [
-             "Ski-In/Ski-Out",
-             "Hot Tub",
-             "Restaurant",
-             "Free Breakfast"
-           ],
-           "oneDayRoomPrice": 289,
-           "rating": 4.8,
-           "imageUrl": "https://i.pinimg.com/564x/50/19/3d/50193ddac298400a2ac2eeacc28fb3d5.jpg"         }
-       ]
-     },
-     {
-       "country": "France",
-       "hotels": [
-         {
-          "id":"5",
-           "hotelName": "Parisian Elegance",
-           "description": "Experience the charm of Paris with this elegant hotel located near iconic landmarks.",
-           "location": "Paris",
-           "facilities": [
-             "Free Wi-Fi",
-             "Concierge Service",
-             "Bar",
-             "Restaurant",
-             "Spa"
-           ],
-           "oneDayRoomPrice": 349,
-           "rating": 4.6,
-           "imageUrl": "https://i.pinimg.com/564x/e4/4e/fa/e44efa3a348b8e59b623c7a0eca23756.jpg"         },
-         {
-          "id":"6",
-           "hotelName": "Côte d'Azur Resort",
-           "description": "A luxurious resort offering stunning views of the French Riviera and exceptional service.",
-           "location": "Nice",
-           "facilities": [
-             "Beach Access",
-             "Swimming Pool",
-             "Fitness Center",
-             "Restaurant",
-             "Free Parking"
-           ],
-           "oneDayRoomPrice": 399,
-           "rating": 4.9,
-           "imageUrl": "https://i.pinimg.com/564x/2b/c0/85/2bc0859ed5f6d7d1c86f3a4044f436ea.jpg"         }
-       ]
-     },
-     {
-       "country": "Germany",
-       "hotels": [
-         {
-          "id":"7",
-           "hotelName": "Berlin Central Hotel",
-           "description": "Located in the center of Berlin, this hotel offers modern amenities and easy access to attractions.",
-           "location": "Berlin",
-           "facilities": [
-             "Free Wi-Fi",
-             "Business Center",
-             "Restaurant",
-             "Fitness Center",
-             "Laundry Service"
-           ],
-           "oneDayRoomPrice": 179,
-           "rating": 4.4,
-           "imageUrl": "https://i.pinimg.com/736x/d2/21/ba/d221bab2e77ad8f22019cfeef952f815.jpg"         },
-         {
-          "id":"8",
-           "hotelName": "Bavarian Castle Hotel",
-           "description": "Stay in a historic castle with a blend of traditional and modern comforts in the heart of Bavaria.",
-           "location": "Munich",
-           "facilities": [
-             "Free Wi-Fi",
-             "Restaurant",
-             "Castle Tours",
-             "Fitness Center",
-             "Spa"
-           ],
-           "oneDayRoomPrice": 259,
-           "rating": 4.7,
-           "imageUrl": "https://i.pinimg.com/564x/3a/4b/37/3a4b372460b19d4bdff5eaaa2415db64.jpg"         }
-       ]
-     },
-     {
-       "country": "Italy",
-       "hotels": [
-         {
-          "id":"10",
-           "hotelName": "Rome Luxury Suites",
-           "description": "Elegant suites in the heart of Rome, offering a blend of historical charm and modern luxury.",
-           "location": "Rome",
-           "facilities": [
-             "Free Wi-Fi",
-             "Spa",
-             "Restaurant",
-             "Concierge Service"
-           ],
-           "oneDayRoomPrice": 349,
-           "rating": 4.8,
-           "imageUrl": "https://i.pinimg.com/564x/5a/6f/1b/5a6f1b3ac924867884edddcb68b606e2.jpg"         },
-         {
-          "id":"11",
-           "hotelName": "Venetian Retreat",
-           "description": "A charming retreat overlooking the canals of Venice, with exquisite service and a romantic atmosphere.",
-           "location": "Venice",
-           "facilities": [
-             "Free Wi-Fi",
-             "Bar",
-             "Restaurant",
-             "Boat Tours"
-           ],
-           "oneDayRoomPrice": 379,
-           "rating": 4.9,
-           "imageUrl": "https://i.pinimg.com/564x/8b/08/42/8b084269a4a81827c1e0c3e66ca88d8d.jpg"         }
-       ]
-     }
-   ]
-   
+  {
+    "country": "United States",
+    "hotels": [
+      {
+        "id": "1",
+        "hotelName": "Grand City Hotel",
+        "description": "A luxurious hotel located in the heart of the city, offering world-class amenities and services.",
+        "location": "New York, NY",
+        "facilities": [
+          "Free Wi-Fi",
+          "Swimming Pool",
+          "Fitness Center",
+          "Spa",
+          "Restaurant"
+        ],
+        "oneDayRoomPrice": 299,
+        "rating": 4.7,
+        "imageUrl": "https://i.pinimg.com/564x/42/00/65/420065fd93b4ee909fabdfa73eca1f17.jpg"
+      }
+    ]
+  },
+  {
+    "country": "Canada",
+    "hotels": [
+      {
+        "id": "2",
+        "hotelName": "Maple Leaf Inn",
+        "description": "A cozy and comfortable inn with easy access to local attractions and outdoor activities.",
+        "location": "Toronto, ON",
+        "facilities": [
+          "Free Wi-Fi",
+          "Pet-Friendly",
+          "Laundry Service",
+          "Free Parking"
+        ],
+        "oneDayRoomPrice": 159,
+        "rating": 4.2,
+        "imageUrl": "https://i.pinimg.com/564x/d2/7c/db/d27cdbf79503a4fdaaa71f26889c1feb.jpg"
+      }
+    ]
+  },
+  {
+    "country": "France",
+    "hotels": [
+      {
+        "id": "5",
+        "hotelName": "Parisian Elegance",
+        "description": "Experience the charm of Paris with this elegant hotel located near iconic landmarks.",
+        "location": "Paris",
+        "facilities": [
+          "Free Wi-Fi",
+          "Concierge Service",
+          "Bar",
+          "Restaurant",
+          "Spa"
+        ],
+        "oneDayRoomPrice": 349,
+        "rating": 4.6,
+        "imageUrl": "https://i.pinimg.com/564x/e4/4e/fa/e44efa3a348b8e59b623c7a0eca23756.jpg"
+      }
+    ]
+  },
+  {
+    "country": "Germany",
+    "hotels": [
+      {
+        "id": "7",
+        "hotelName": "Berlin Central Hotel",
+        "description": "Located in the center of Berlin, this hotel offers modern amenities and easy access to attractions.",
+        "location": "Berlin",
+        "facilities": [
+          "Free Wi-Fi",
+          "Business Center",
+          "Restaurant",
+          "Fitness Center",
+          "Laundry Service"
+        ],
+        "oneDayRoomPrice": 179,
+        "rating": 4.4,
+        "imageUrl": "https://i.pinimg.com/736x/d2/21/ba/d221bab2e77ad8f22019cfeef952f815.jpg"
+      }
+    ]
+  },
+  {
+    "country": "Italy",
+    "hotels": [
+      {
+        "id": "10",
+        "hotelName": "Rome Luxury Suites",
+        "description": "Elegant suites in the heart of Rome, offering a blend of historical charm and modern luxury.",
+        "location": "Rome",
+        "facilities": [
+          "Free Wi-Fi",
+          "Spa",
+          "Restaurant",
+          "Concierge Service"
+        ],
+        "oneDayRoomPrice": 349,
+        "rating": 4.8,
+        "imageUrl": "https://i.pinimg.com/564x/5a/6f/1b/5a6f1b3ac924867884edddcb68b606e2.jpg"
+      }
+    ]
+  },
+  {
+    "country": "Japan",
+    "hotels": [
+      {
+        "id": "11",
+        "hotelName": "Tokyo Serenity Hotel",
+        "description": "Experience traditional Japanese hospitality and modern comforts in the heart of Tokyo.",
+        "location": "Tokyo",
+        "facilities": [
+          "Free Wi-Fi",
+          "Hot Springs",
+          "Restaurant",
+          "Fitness Center"
+        ],
+        "oneDayRoomPrice": 220,
+        "rating": 4.7,
+        "imageUrl": "https://i.pinimg.com/564x/30/1c/fb/301cfb8885cd18b723c2b40da14824da.jpg"
+      }
+    ]
+  },
+  {
+    "country": "Spain",
+    "hotels": [
+      {
+        "id": "12",
+        "hotelName": "Barcelona Beach Resort",
+        "description": "A beachfront resort offering stunning sea views, luxurious rooms, and world-class amenities.",
+        "location": "Barcelona",
+        "facilities": [
+          "Free Wi-Fi",
+          "Beach Access",
+          "Spa",
+          "Pool",
+          "Restaurant"
+        ],
+        "oneDayRoomPrice": 280,
+        "rating": 4.5,
+        "imageUrl": "https://i.pinimg.com/564x/82/3a/04/823a04660865f32d0c8456221b23af40.jpg"
+      }
+    ]
+  },
+  {
+    "country": " sri lenkha",
+    "hotels": [
+      {
+        "id": "13",
+        "hotelName": "lenkha Harbor Suites",
+        "description": "Luxury suites with breathtaking views of Sydney Harbor and the city skyline.",
+        "location": "lenkha",
+        "facilities": [
+          "Free Wi-Fi",
+          "Pool",
+          "Restaurant",
+          "Concierge Service",
+          "Spa"
+        ],
+        "oneDayRoomPrice": 350,
+        "rating": 4.6,
+        "imageUrl": "https://i.pinimg.com/736x/96/50/e4/9650e47af75fda3dce1f590ee91db083.jpg"
+      }
+    ]
+  },
+  {
+    "country": "United Kingdom",
+    "hotels": [
+      {
+        "id": "14",
+        "hotelName": "London Grand Hotel",
+        "description": "A prestigious hotel in London offering classic luxury, modern amenities, and a central location.",
+        "location": "London",
+        "facilities": [
+          "Free Wi-Fi",
+          "Fitness Center",
+          "Restaurant",
+          "Spa",
+          "Business Center"
+        ],
+        "oneDayRoomPrice": 330,
+        "rating": 4.8,
+        "imageUrl": "https://i.pinimg.com/564x/71/9f/e6/719fe65137cc459bf00924f486cb0c1a.jpg"
+      }
+    ]
+  },
+  {
+    "country": "Brazil",
+    "hotels": [
+      {
+        "id": "15",
+        "hotelName": "Rio Luxury Hotel",
+        "description": "A luxurious hotel in Rio de Janeiro with stunning views of the beaches and vibrant city life.",
+        "location": "Rio de Janeiro",
+        "facilities": [
+          "Free Wi-Fi",
+          "Beach Access",
+          "Pool",
+          "Spa",
+          "Restaurant"
+        ],
+        "oneDayRoomPrice": 290,
+        "rating": 4.7,
+        "imageUrl": "https://i.pinimg.com/564x/38/26/21/382621b31fcafd6d7df05a2b34c7ed23.jpg"
+      }
+    ]
+  },
+  {
+    "country": "South Africa",
+    "hotels": [
+      {
+        "id": "16",
+        "hotelName": "Cape Town Retreat",
+        "description": "Experience the beauty of Cape Town with luxury accommodations and stunning mountain views.",
+        "location": "Cape Town",
+        "facilities": [
+          "Free Wi-Fi",
+          "Pool",
+          "Restaurant",
+          "Spa",
+          "Concierge Service"
+        ],
+        "oneDayRoomPrice": 250,
+        "rating": 4.5,
+        "imageUrl": "https://i.pinimg.com/564x/d0/62/34/d0623483fa00e80e4e74350a8b542e15.jpg"
+      }
+    ]
+  },
+  {
+    "country": "Mexico",
+    "hotels": [
+      {
+        "id": "17",
+        "hotelName": "Cancun Beach Hotel",
+        "description": "Enjoy an all-inclusive experience with beautiful beaches, pools, and gourmet dining.",
+        "location": "Cancun",
+        "facilities": [
+          "Free Wi-Fi",
+          "Beach Access",
+          "Pool",
+          "Restaurant",
+          "Spa"
+        ],
+        "oneDayRoomPrice": 220,
+        "rating": 4.6,
+        "imageUrl": "https://i.pinimg.com/564x/b9/3b/9b/b93b9b7672b57f2fe79f5fe57ecc4f95.jpg"
+      }
+    ]
+  },
+  {
+    "country": "India",
+    "hotels": [
+      {
+        "id": "18",
+        "hotelName": "Udaipure Heritage Hotel",
+        "description": "A blend of historical charm and modern luxury in the bustling city of Mumbai.",
+        "location": "Mumbai",
+        "facilities": [
+          "Free Wi-Fi",
+          "Spa",
+          "Restaurant",
+          "Fitness Center",
+          "Business Center"
+        ],
+        "oneDayRoomPrice": 210,
+        "rating": 4.4,
+        "imageUrl": "https://i.pinimg.com/564x/49/24/8b/49248b7db01b6a857fbb1326ccd2c598.jpg"
+      }
+    ]
+  },
+  {
+    "country": "China",
+    "hotels": [
+      {
+        "id": "19",
+        "hotelName": "Shanghai Grand Hotel",
+        "description": "Experience luxury and elegance in Shanghai with top-notch amenities and city views.",
+        "location": "Shanghai",
+        "facilities": [
+          "Free Wi-Fi",
+          "Spa",
+          "Restaurant",
+          "Fitness Center",
+          "Concierge Service"
+        ],
+        "oneDayRoomPrice": 300,
+        "rating": 4.7,
+        "imageUrl": "https://i.pinimg.com/736x/3e/a7/55/3ea755df0e6036ef9dc4d1a61ef9c821.jpg"
+      }
+    ]
+  },
+  {
+    "country": "Thailand",
+    "hotels": [
+      {
+        "id": "20",
+        "hotelName": "Bangkok Luxury Resort",
+        "description": "Enjoy a luxury stay in Bangkok with exquisite dining, a full-service spa, and modern amenities.",
+        "location": "Bangkok",
+        "facilities": [
+          "Free Wi-Fi",
+          "Spa",
+          "Restaurant",
+          "Pool",
+          "Fitness Center"
+        ],
+        "oneDayRoomPrice": 230,
+        "rating": 4.5,
+        "imageUrl": "https://i.pinimg.com/564x/58/0f/65/580f655a13e13b450cd4d8926ec42747.jpg"
+      }
+    ]
+  }
+]
