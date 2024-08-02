@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Nav } from "../nav/Nav";
 import { Header } from "../header/Header";
@@ -26,22 +27,20 @@ export const Home = () => {
           <div className="flex justify-between items-center">
             <p className="text-2xl font-bold">Popular</p>
             <p className=" font-bold text-blue-500">See all</p>
-          
           </div>
           <div>
-              <Card />
-            </div>
+            <Card />
+          </div>
         </div>
 
         <div className="mt-7">
           <div className="flex justify-between items-center">
             <p className="text-2xl font-bold">Recommended</p>
             <p className=" font-bold text-blue-500">See all</p>
-          
           </div>
           <div>
-              <Recommended />
-            </div>
+            <Recommended />
+          </div>
         </div>
       </div>
     </div>
