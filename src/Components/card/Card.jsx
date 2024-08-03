@@ -41,9 +41,9 @@ export const Card = () => {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 344,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
