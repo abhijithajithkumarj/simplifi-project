@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 2rem;
+ 
 }
 
 .card {
@@ -17,6 +17,7 @@
   height: 200px; 
   background-size: cover;
   background-position: center;
+  margin: 2rem; 
 
 }
 
