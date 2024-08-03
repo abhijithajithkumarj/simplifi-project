@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link, useParams } from 'react-router-dom';
+import './Details.css'
 
 export const Details = () => {
   const { id } = useParams();
@@ -39,21 +40,20 @@ export const Details = () => {
 
       <div className="flex flex-col lg:w-3/5 w-full bg-white p-4 shadow-lg">
         <div
-          className="card bg-white shadow-lg rounded-lg overflow-hidden relative h-[25rem] w-full mb-8"
+          className=" bg-white shadow-lg rounded-lg overflow-hidden relative h-[25rem] w-full mb-8"
           style={{
             backgroundImage: `url(${hotel.imageUrl})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-          }}
-        >
+          }}>
           <Link to="/home" className="Arrow flex absolute top-4 left-4">
             <button className="text-white p-2 rounded-lg flex items-center bg-white w-11 h-15 justify-center">
               <i className="fa-solid fa-arrow-left text-xl text-black"></i>
             </button>
           </Link>
-          <div className="button-grp flex justify-end space-x-2 absolute right-4 bottom-4 z-50">
-            <button className="likes border border-gray-300 rounded-full bg-white p-2 flex items-center">
-              <i className="fa-solid fa-heart text-5xl text-red-500"></i>
+          <div className="button-grp flex justify-end space-x-2 absolute right-4 bottom-4 z-50 mr-5">
+            <button className="likes border border-gray-300 rounded-full bg-white   p-2 flex items-center">
+              <i className="fa-solid fa-heart text-4xl text-red-500"></i>
             </button>
           </div>
         </div>

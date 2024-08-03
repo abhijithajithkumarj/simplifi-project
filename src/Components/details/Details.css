@@ -1,0 +1,104 @@
+@media (max-width: 600px) {
+  .card {
+    height: 15rem; 
+  }
+
+  .Arrow button {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .Arrow i {
+    font-size: 1.25rem;
+  }
+
+  .button-grp .likes {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .button-grp .likes i {
+    font-size: 2rem; 
+  }
+
+
+  .second-child .title-and-map p {
+    font-size: 1.5rem;
+  }
+
+  .ratting-description .flex i {
+    font-size: 1rem;
+  }
+
+  .ratting-description .flex p {
+    font-size: 0.875rem; 
+  }
+
+  .ratting-description p {
+    font-size: 0.875rem;
+  }
+
+  .ratting-description .facilities p {
+    font-size: 0.875rem;
+  }
+
+  .price-and-button p {
+    font-size: 1rem;
+  }
+
+  .price-and-button .book-now {
+    width: 12rem;
+    font-size: 0.875rem; 
+  }
+}
+
+@media (max-width: 344px) {
+
+
+  .Arrow button {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .Arrow i {
+    font-size: 1rem;
+  }
+
+  .button-grp .likes {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .button-grp .likes i {
+     font-size:  1rem; 
+   }
+
+  .second-child .title-and-map p {
+    font-size: 1.25rem; 
+  }
+
+  .ratting-description .flex i {
+    font-size: 0.875rem; 
+  }
+
+  .ratting-description .flex p {
+    font-size: 0.75rem; 
+  }
+
+  .ratting-description p {
+    font-size: 0.75rem;
+  }
+
+  .ratting-description .facilities p {
+    font-size: 0.75rem; 
+  }
+
+  .price-and-button p {
+    font-size: 0.875rem; 
+  }
+
+  .price-and-button .book-now {
+    width: 10rem;
+    font-size: 0.75rem; 
+  }
+}
