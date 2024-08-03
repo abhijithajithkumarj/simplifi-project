@@ -76,7 +76,7 @@ export const Card = () => {
                 className="card-container flex justify-start"
                 key={hotelIndex}
                 onClick={() => handleCardClick(hotel.id)}
-                style={{ padding: "2rem" }} 
+             
               >
                 <article
                   className="card"

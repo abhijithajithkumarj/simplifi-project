@@ -15,7 +15,7 @@
   border-radius: 1rem;
   width: 400px; 
   height: 200px; 
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   margin: 1rem; 
 
