@@ -85,7 +85,7 @@ export const Details = () => {
           <p className="text-3xl font-bold mt-3">Facilities</p>
 
           <div className="flex flex-wrap justify-around gap-4 mt-5">
-            <div className="border bg-black bg-opacity-10  rounded-lg w-20 h-20 flex items-center justify-center ">
+            <div className="facility-icon border bg-black bg-opacity-10  rounded-lg w-20 h-20 flex items-center justify-center ">
               <p className="flex flex-col justify-items-center items-center">
                 <p>
                   <i className="fa-solid fa-wifi text-xl text-black"></i>
@@ -93,7 +93,7 @@ export const Details = () => {
                 wif
               </p>
             </div>
-            <div className="border bg-black bg-opacity-10 rounded-lg  w-20 h-20  flex items-center justify-center">
+            <div className="facility-icon border bg-black bg-opacity-10 rounded-lg  w-20 h-20  flex items-center justify-center">
               <p className="flex flex-col justify-items-center items-center">
                 <p>
                   <i className="fa-solid fa-utensils text-xl text-black"></i>
@@ -101,7 +101,7 @@ export const Details = () => {
                 Dinner
               </p>
             </div>
-            <div className="border bg-black bg-opacity-10 rounded-lg  w-20 h-20  flex items-center justify-center">
+            <div className="facility-icon border bg-black bg-opacity-10 rounded-lg  w-20 h-20  flex items-center justify-center">
               <p className="flex flex-col justify-items-center items-center">
                 <p>
                   <i className="fa-solid fa-bath  text-xl text-black"></i>
@@ -109,7 +109,7 @@ export const Details = () => {
                 1 Tub
               </p>
             </div>
-            <div className="border bg-black bg-opacity-10  rounded-lg  w-20 h-20  flex items-center justify-center">
+            <div className="facility-icon border bg-black bg-opacity-10  rounded-lg  w-20 h-20  flex items-center justify-center">
               <p className="flex flex-col justify-items-center items-center ">
                 <p>
                   <i className="fa-solid fa-water-ladder  text-xl text-black"></i>

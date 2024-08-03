@@ -50,6 +50,15 @@
     width: 12rem;
     font-size: 0.875rem; 
   }
+
+  .facility-icon {
+     width: 4rem; 
+     height: 4rem; 
+   }
+ 
+   .facility-icon i {
+     font-size: 1rem; 
+   }
 }
 
 @media (max-width: 344px) {
@@ -101,4 +110,13 @@
     width: 10rem;
     font-size: 0.75rem; 
   }
+
+  .facility-icon {
+     width: 3rem; 
+     height: 3rem; 
+   }
+ 
+   .facility-icon i {
+     font-size: 0.875rem; 
+   }
 }
