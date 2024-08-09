@@ -84,8 +84,8 @@ export const Details = () => {
 
           <p className="text-3xl font-bold mt-3">Facilities</p>
 
-          <div className="flex flex-wrap justify-around gap-4 mt-5">
-            <div className="facility-icon border bg-black bg-opacity-10  rounded-lg w-20 h-20 flex items-center justify-center ">
+          <div className="flex flex-wrap justify-around gap-2 mt-5">
+            <div className="facility-icon border bg-black bg-opacity-10  rounded-lg w-16 h-16 flex items-center justify-center ">
               <p className="flex flex-col justify-items-center items-center">
                 <p>
                   <i className="fa-solid fa-wifi text-xl text-black"></i>
@@ -93,7 +93,7 @@ export const Details = () => {
                 wif
               </p>
             </div>
-            <div className="facility-icon border bg-black bg-opacity-10 rounded-lg  w-20 h-20  flex items-center justify-center">
+            <div className="facility-icon border bg-black bg-opacity-10 rounded-lg  w-16 h-16  flex items-center justify-center">
               <p className="flex flex-col justify-items-center items-center">
                 <p>
                   <i className="fa-solid fa-utensils text-xl text-black"></i>
@@ -101,7 +101,7 @@ export const Details = () => {
                 Dinner
               </p>
             </div>
-            <div className="facility-icon border bg-black bg-opacity-10 rounded-lg  w-20 h-20  flex items-center justify-center">
+            <div className="facility-icon border bg-black bg-opacity-10 rounded-lg  w-16 h-16  flex items-center justify-center">
               <p className="flex flex-col justify-items-center items-center">
                 <p>
                   <i className="fa-solid fa-bath  text-xl text-black"></i>
@@ -109,7 +109,7 @@ export const Details = () => {
                 1 Tub
               </p>
             </div>
-            <div className="facility-icon border bg-black bg-opacity-10  rounded-lg  w-20 h-20  flex items-center justify-center">
+            <div className="facility-icon border bg-black bg-opacity-10  rounded-lg  w-16 h-16  flex items-center justify-center">
               <p className="flex flex-col justify-items-center items-center ">
                 <p>
                   <i className="fa-solid fa-water-ladder  text-xl text-black"></i>
@@ -127,7 +127,7 @@ export const Details = () => {
             </p>
             <button
               type="button"
-              className="bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 rounded-lg text-sm px-5 py-2.5 text-center text-white font-bold sm:w-72 w-64 md:w-80 lg:w-96 mt-4 h-14"
+              className="bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 rounded-lg text-sm px-5 py-2.5 text-center text-white font-bold sm:w-72 w-52 md:w-80 lg:w-96 mt-4 h-14"
             >
               Book Now{" "}
               <i className="fa-solid fa-arrow-right text-white ml-12"></i>
@@ -137,7 +137,7 @@ export const Details = () => {
       </div>
 
       <div className="hidden lg:flex lg:w-1/5 bg-white shadow-lg p-4">
-        {/* Right sidebar content here */}
+        
       </div>
     </div>
   );
