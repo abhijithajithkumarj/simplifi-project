@@ -1,131 +1,105 @@
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 50px; /* Padding to give space for scroll buttons */
+  scrollbar-width: none; /* For Firefox */
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.carousel-slide {
+  display: flex;
+  margin-right: 20px;
+}
+
 .card-container1 {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   }
-   
-   .card1 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    overflow: hidden;
-    border-radius: 1rem;
-    width: 400px; 
-    height: 200px; 
-    background-size: contain;
-    background-position: center;
-    margin: 1rem; 
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  border-radius: 1rem;
+  width: 400px;
+  height: 200px;
+  background-size: contain;
+  background-position: center;
+  margin: 1rem;
+}
+
+.card-image1 {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.card-name1 {
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #333;
+  background-color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.card-description1 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 0.875rem;
+  background-color: #4d5652;
+  padding: 5px;
+  border-radius: 12px;
+  color: aliceblue;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.scroll-button.left-0 {
+  left: 10px;
+}
+
+.scroll-button.right-0 {
+  right: 10px;
+}
+
+@media (max-width: 600px) {
+  .card1 {
+    width: 180px;
+    height: 250px;
   }
-   
-   .card-image1 {
-     width: 100%;
-     height: 200px;
-     position: relative;
-   }
-   
-   .card-name1 {
-     padding: 0.5rem;
-     font-size: 1.125rem; 
-     font-weight: bold;
-     color: #333;
-     background-color: #fff;
-     text-align: center;
-     border-bottom-left-radius: 1rem;
-     border-bottom-right-radius: 1rem;
-   }
-   
-   .card-description1 {
-     position: absolute;
-     bottom: 10px; 
-     left: 10px; 
-     font-size: 0.875rem;
-     background-color: #4d5652; 
-     padding: 5px;
-     border-radius: 12px;
-     color: aliceblue;
-   }
-   
-   .card-description1 {
-     position: absolute;
-     bottom: 10px; 
-     left: 10px; 
-     font-size: 0.875rem;
-     background-color: #4d5652; 
-     padding: 5px;
-     border-radius: 12px;
-     color: aliceblue;
-     width: 45%;
-   }
-   
-   .slick-slider {
-     position: relative;
-   }
-   
-   .slick-track {
-     display: flex;
-   }
-   
-   .slick-slide {
-     display: flex !important;
-     justify-content: center;
-     align-items: center;
-   }
-   
-   .slick-prev, .slick-next {
-     display: block !important;
-     width: 50px;
-     height: 50px;
-     z-index: 1;
-     border-radius: 50%;
-     color: white;
-     border: none;
-   }
-   
-   .slick-prev::before, .slick-next::before {
-     font-size: 50px;
-     color: rgb(250, 0, 0);
-   }
-   
-   .slick-prev {
-     left: 10px;
-   }
-   
-   .slick-next {
-     right: 10px;
-   }
-   
-   .slick-dots {
-     display: none !important;
-   }
-   
-   .slick-track {
-     scrollbar-width: none;
-   }
-   
 
-   
+  .card-image1 {
+    height: 250px;
+  }
 
-   @media (max-width: 600px) {
-     .card1 {
-       width: 180px; 
-       height: 250px;
-     }
-   
-     .card-image1 {
-       height: 250px;
-     }
-   
-     .slick-prev, .slick-next {
-       display: none !important;
-     }
-   
-     .card-description1 {
-       width: 36%;
-     }
-   
+  .scroll-button {
+    display: none;
+  }
 
-    
-   }
-   
+  .card-description1 {
+    width: 36%;
+  }
+}
