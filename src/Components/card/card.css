@@ -2,12 +2,12 @@
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
-  padding: 10px 50px; /* Padding to give space for scroll buttons */
-  scrollbar-width: none; /* For Firefox */
+  padding: 10px 50px; 
+  scrollbar-width: none; 
 }
 
 .carousel-container::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Opera */
+  display: none;
 }
 
 .carousel-slide {
