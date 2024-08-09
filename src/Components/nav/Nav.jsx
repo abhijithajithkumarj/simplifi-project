@@ -7,7 +7,7 @@ export const Nav = () => {
     <div>
 
     
-      <div className="fixed z-50 w-full  max-w-lg -translate-x-1/2 bg-slate-200 border  rounded-full bottom-0  left-1/2  h-16  lg:h-16">
+      <div className="fixed z-50 w-full  max-w-lg -translate-x-1/2 bg-slate-200 border  rounded-full bottom-0  left-1/2  h-14  lg:h-16">
       
         <div className="grid h-full max-w-lg grid-cols-4 mx-auto"> 
 

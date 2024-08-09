@@ -2,8 +2,8 @@
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
-  padding: 10px 50px; /* Padding to give space for scroll buttons */
-  scrollbar-width: none; /* For Firefox */
+  padding: 10px 50px;
+  scrollbar-width: none; 
 }
 
 .carousel-container::-webkit-scrollbar {
@@ -33,6 +33,7 @@
   background-size: contain;
   background-position: center;
   margin: 1rem;
+  padding-bottom: 1.1rem;
 }
 
 .card-image1 {
