@@ -2,61 +2,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import "./Recommended.css";
-
 
 export const Recommended = () => {
   const [hotels, setHotels] = useState([]);
   const navigate = useNavigate();
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 2, 
-    slidesToScroll: 1,
-    rows: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 450,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 344,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
 
   useEffect(() => {
     axios
@@ -74,11 +24,28 @@ export const Recommended = () => {
     navigate(`/details/${id}`);
   };
 
+  const scrollLeft = () => {
+    document.getElementById("recommended-carousel").scrollBy({
+      left: -300,
+      behavior: "smooth",
+    });
+  };
+
+  const scrollRight = () => {
+    document.getElementById("recommended-carousel").scrollBy({
+      left: 300,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <div className="w-full p-4">
-      <Slider {...settings}>
+    <div className="w-full p-4 relative">
+      <button className="scroll-button left-0" onClick={scrollLeft}>
+        &lt;
+      </button>
+      <div id="recommended-carousel" className="carousel-container">
         {hotels.map((country, countryIndex) => (
-          <div key={countryIndex} className="carousel">
+          <div key={countryIndex} className="carousel-slide">
             {country.hotels.map((hotel, hotelIndex) => (
               <div
                 className="card-container1"
@@ -94,11 +61,8 @@ export const Recommended = () => {
                       backgroundPosition: "center",
                     }}
                   >
-                
                     <div className="card-description1 items-center flex ml-24 lg:ml-72">
-                      <p className="flex gap-5 ml-5">
-                       2n/3d
-                      </p>
+                      <p className="flex gap-5 ml-5">2n/3d</p>
                     </div>
                   </div>
                   <div className="card-name1">{hotel.hotelName}</div>
@@ -107,7 +71,10 @@ export const Recommended = () => {
             ))}
           </div>
         ))}
-      </Slider>
+      </div>
+      <button className="scroll-button right-0" onClick={scrollRight}>
+        &gt;
+      </button>
     </div>
   );
 };
